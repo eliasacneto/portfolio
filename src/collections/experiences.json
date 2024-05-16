@@ -1,23 +1,23 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"dates": "June 2020 · Present",
+		"role": "Head of Technology",
+		"company": "Realm",
+		"description": "Responsible for project management, customer service and Saas platform front-end development.",
+		"logo": "/assets/images/experiences/realm.png"
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
+		"dates": "June 2020 · October 2021",
+		"role": "Front-end Developer",
+		"company": "CodeRealm",
 		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"logo": "/assets/images/experiences/CodeRealm.png"
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "January 2017 · January 2020 ",
+		"role": "English teacher",
+		"company": "Wizard by Pearson",
+		"description": "My role encompassed not only language instruction but also fostering communicative skills and creating a stimulating learning environment.",
+		"logo": "/assets/images/experiences/wizard.png"
 	}
 ]

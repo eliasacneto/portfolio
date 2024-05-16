@@ -1,12 +1,16 @@
 ---
+import AboutExperience from "../components/about-experience.astro";
 import Button from "../components/button.astro";
 import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
+import IconButton from "../components/icon-button.astro";
+import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import experiences from "../collections/experiences.json";
 ---
 
-<Layout title="Kai">
+<Layout title="Hi, I'm Elias! ">
   <div
     class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
@@ -15,15 +19,14 @@ import Layout from "../layouts/main.astro";
         <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
-          Hello, I'm Kai.
+          Hello, I'm Elias!
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a front-end programmer living in Nanjing. <br
+          I'm a front-end developer living in Brazil. <br
             class="hidden lg:block"
-          />I focus on Web development. <br class="hidden lg:block" /><span
+          />I focus on Web and Mobile development. <br
             class="hidden lg:block"
-            >The handsome boy on the right is not me.</span
-          >
+          />
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
           I can help you out with:
@@ -31,13 +34,22 @@ import Layout from "../layouts/main.astro";
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
-          <li>Vue.js Development</li>
           <li>React.js Development</li>
-          <li>Node.js Development</li>
+          <li>Mobile Development</li>
           <li>Website Design</li>
           <li>and more...</li>
         </ul>
-        <Button text="Follow me on 𝕏" link="https://twitter.com/ccbikai" />
+        <div class="flex items-center gap-1">
+          <Button text="Download CV" link="#" />
+          <IconButton
+            icon="fa-brands fa-linkedin-in fa-lg"
+            link="https://linkedin.com/in/eliasacneto"
+          />
+          <IconButton
+            icon="fa-brands fa-github fa-lg"
+            link="https://github.com/eliasacneto"
+          />
+        </div>
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -51,16 +63,16 @@ import Layout from "../layouts/main.astro";
             >
               <span
                 class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
-                >👋</span
+                >👨🏻‍💻</span
               >
             </span>
           </div>
-          <div class="relative z-30 px-10">
+          <div class="relative z-30 px-1">
             <img
-              src="/assets/images/photo.png"
+              src="/assets/images/2.png"
               loading="eager"
               decoding="auto"
-              class="relative z-30 w-full md:max-w-md mx-auto dark:-translate-y-0.5"
+              class="relative z-30 mb-1 w-full md:max-w-md mx-auto dark:-translate-y-0.5 rounded-lg"
             />
           </div>
           <div
@@ -71,9 +83,123 @@ import Layout from "../layouts/main.astro";
       </div>
     </div>
   </div>
+  <Separator text="A little bit about me" />
+  <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="About Me"
+      description="I hold a degree in Analysis and Systems Development, boasting solid experience in project management, user-friendly UI/UX interface development, website and web application creation, seamlessly integrating agile methodologies with programming best practices. I have a genuine passion for programming and I'm an advocate for usability and innovation-related themes!"
+    />
 
-  <Separator text="Check out my projects" />
-  <Projects />
-  <Separator text="Some of my writing" />
-  <Writings />
+    <div id="projects">
+      <Separator text="Check out my projects" />
+    </div>
+    <Projects />
+
+    <Separator text="My work experiences" />
+
+    <h2
+      class="mt-1 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Experience
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                />
+              )}
+            </>
+          );
+        })
+      }
+    </div>
+  </div>
+
+  <Separator text="Get in touch" />
+  <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Let's Connect
+    </h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      If you want to stay up to date with my work be sure to <a
+        href="https://twitter.com/ccikai"
+        target="_blank"
+        class="text-indigo-600 underline">follow me on twitter</a
+      >, or you can send me an <a
+        href="mailto:astro-aria#miantiao.me"
+        class="text-indigo-600 underline">email</a
+      > and I'll be sure to get back to you.
+    </p>
+  </div>
+  <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <form
+      method="get"
+      action={""}
+      class="p-6 border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600"
+    >
+      <div class="relative flex items-center space-x-2">
+        <svg
+          class="flex-none w-6 h-6 text-neutral-700 dark:text-neutral-200"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          ><path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"
+          ></path></svg
+        >
+        <h2
+          class="flex text-sm font-semibold text-neutral-900 dark:text-neutral-100"
+        >
+          Subscribe my blog
+        </h2>
+      </div>
+      <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
+        Get my blog updates via <a class="font-bold" href={`#`}>Feedly</a>, <a
+          class="font-bold"
+          href={`#`}>Inoreader</a
+        > or <a class="font-bold" href={""}>RSS</a>.
+      </p>
+      <div class="flex flex-col items-center w-full mt-4 space-y-3">
+        <input
+          type="url"
+          readonly
+          placeholder="Email address"
+          aria-label="Email address"
+          required=""
+          class="w-full h-10 px-3 text-sm border border-dashed rounded-md focus:ring-0 focus:outline-black border-neutral-400 dark:border-neutral-600 dark:bg-neutral-800 dark:placeholder-neutral-400 dark:text-white"
+        />
+        <button
+          type="submit"
+          class="block w-full px-4 py-2 mt-5 text-xs font-semibold text-center duration-300 ease-out border rounded bg-neutral-900 dark:bg-neutral-100 dark:hover:border-neutral-300 dark:text-neutral-800 dark:hover:bg-neutral-950 dark:hover:text-neutral-100 text-neutral-100 border-neutral-900 hover:bg-white hover:text-neutral-900"
+          >Subscribe</button
+        >
+      </div>
+    </form>
+  </div>0
 </Layout>

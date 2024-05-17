@@ -1,20 +1,33 @@
 [
 	{
-		"name": "Project name",
-		"description": "Description goes here",
-		"image": "/assets/images/posts/code-canvas.jpg",
-		"url": "#"
+		"name": "Morais & Ribeiro Lawyers",
+		"description": "Next.js, TailwindCSS and Discord Webhook.",
+		"image": "/assets/images/projects/moraisribeiro.png",
+		"url": "https://moraisribeiro.vercel.app/"
 	},
 	{
-		"name": "Project name",
-		"description": "Description goes here",
-		"image": "/assets/images/posts/code-canvas.jpg",
-		"url": "#"
+		"name": "WeFashion School",
+		"description": "ReactJS, Vite, Saas, SwipperJS and Sheet Monkey.",
+		"image": "/assets/images/projects/wefashion.png",
+		"url": "https://wefashion.vercel.app/"
+	},
+    {
+		"name": "Fortune Cookie",
+		"description": "Get you luck phrase. HTML, CSS and Javascript.",
+		"image": "/assets/images/projects/fortune.gif",
+		"url": "https://myfortunecookie.netlify.app/"
 	},
 	{
-		"name": "Project name",
-		"description": "Description goes here",
-		"image": "/assets/images/posts/code-canvas.jpg",
-		"url": "#"
+		"name": "WeathAddress",
+		"description": "A webpage created to consume weather and localization api.",
+		"image": "/assets/images/projects/zipcode.png",
+		"url": "https://dnczipcodeweather.netlify.app/"
+	},	
+    {
+		"name": "DNC E-commerce",
+		"description": "React, HTML5, SASS, React Router, Mock",
+		"image": "/assets/images/projects/ecommerce.png",
+		"url": "https://g7-ecommerce-dnc.vercel.app/"
 	}
+    
 ]

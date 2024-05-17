@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "WeFashion School",
-		"description": "ReactJS, Vite, Saas, SwipperJS and Sheet Monkey.",
+		"description": "ReactJS, Vite, Sass, SwipperJS and Sheet Monkey.",
 		"image": "/assets/images/projects/wefashion.png",
 		"url": "https://wefashion.vercel.app/"
 	},
@@ -25,7 +25,7 @@
 	},	
     {
 		"name": "DNC E-commerce",
-		"description": "React, HTML5, SASS, React Router, Mock",
+		"description": "E-commerce layout challenge. ReactJS, HTML5, Sass, React Router, Mock",
 		"image": "/assets/images/projects/ecommerce.png",
 		"url": "https://g7-ecommerce-dnc.vercel.app/"
 	}

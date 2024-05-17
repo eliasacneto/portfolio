@@ -3,7 +3,6 @@ import AboutExperience from "../components/about-experience.astro";
 import Button from "../components/button.astro";
 import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
-import Writings from "../components/home/writings.astro";
 import IconButton from "../components/icon-button.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
@@ -19,7 +18,7 @@ import experiences from "../collections/experiences.json";
         <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
-          Hello, I'm Elias!
+          Hi, I'm Elias!
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
           I'm a front-end developer living in Brazil. <br
@@ -143,63 +142,23 @@ import experiences from "../collections/experiences.json";
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
+      If you want to stay up to date with my work <a
+        href="https://linkedin.com/in/eliasacneto"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
+        class="text-indigo-600 underline">follow me on Linkedin</a
       >, or you can send me an <a
-        href="mailto:astro-aria#miantiao.me"
+        href="mailto:netoeac.dev@gmail.com"
         class="text-indigo-600 underline">email</a
       > and I'll be sure to get back to you.
     </p>
   </div>
   <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <form
-      method="get"
-      action={""}
-      class="p-6 border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600"
+    <a
+      href="https://api.whatsapp.com/send?phone=5588997652020&text=Hi%20Elias,%20I%20saw%20your%20website%20and%20I'd%20like%20to%20talk%20to%20you%20about%20a%20project.%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB"
+      target="_blank"
+      class="block w-full px-4 py-2 mt-5 text-[14px] font-semibold text-center duration-300 ease-out border rounded bg-neutral-900 dark:bg-neutral-100 dark:hover:border-neutral-300 dark:text-neutral-800 dark:hover:bg-neutral-950 dark:hover:text-neutral-100 text-neutral-100 border-neutral-900 hover:bg-white hover:text-neutral-900 font-bold"
     >
-      <div class="relative flex items-center space-x-2">
-        <svg
-          class="flex-none w-6 h-6 text-neutral-700 dark:text-neutral-200"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          ><path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"
-          ></path></svg
-        >
-        <h2
-          class="flex text-sm font-semibold text-neutral-900 dark:text-neutral-100"
-        >
-          Subscribe my blog
-        </h2>
-      </div>
-      <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-        Get my blog updates via <a class="font-bold" href={`#`}>Feedly</a>, <a
-          class="font-bold"
-          href={`#`}>Inoreader</a
-        > or <a class="font-bold" href={""}>RSS</a>.
-      </p>
-      <div class="flex flex-col items-center w-full mt-4 space-y-3">
-        <input
-          type="url"
-          readonly
-          placeholder="Email address"
-          aria-label="Email address"
-          required=""
-          class="w-full h-10 px-3 text-sm border border-dashed rounded-md focus:ring-0 focus:outline-black border-neutral-400 dark:border-neutral-600 dark:bg-neutral-800 dark:placeholder-neutral-400 dark:text-white"
-        />
-        <button
-          type="submit"
-          class="block w-full px-4 py-2 mt-5 text-xs font-semibold text-center duration-300 ease-out border rounded bg-neutral-900 dark:bg-neutral-100 dark:hover:border-neutral-300 dark:text-neutral-800 dark:hover:bg-neutral-950 dark:hover:text-neutral-100 text-neutral-100 border-neutral-900 hover:bg-white hover:text-neutral-900"
-          >Subscribe</button
-        >
-      </div>
-    </form>
+      <i class="fa-brands fa-whatsapp fa-lg"></i> Send me a message</a
+    >
   </div>0
 </Layout>

@@ -86,22 +86,24 @@ import experiences from "../collections/experiences.json";
       </div>
     </div>
   </div>
-  <Separator text="A little bit about me" />
+  <Separator link="#about-me" text="A little bit about me" />
   <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
+      id="about-me"
       title="About Me"
       description="I hold a degree in Analysis and Systems Development, boasting solid experience in project management, user-friendly UI/UX interface development, website and web application creation, seamlessly integrating agile methodologies with programming best practices. I have a genuine passion for programming and I'm an advocate for usability and innovation-related themes!"
     />
 
-    <div id="projects">
-      <Separator text="Check out my projects" />
+    <div id="projects-here">
+      <Separator text="Check out my projects" link="#projects" />
     </div>
     <Projects />
 
-    <div id="experiences"></div>
-    <Separator text="My work experiences" />
+    <div id="my-experiences"></div>
+    <Separator text="My work experiences" link="#experiences" />
 
     <h2
+      id="experiences"
       class="mt-1 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
       Experiences
@@ -136,10 +138,10 @@ import experiences from "../collections/experiences.json";
       }
     </div>
   </div>
-  <div id="contact"></div>
+  <div id="my-contact"></div>
 
-  <Separator text="Get in touch" />
-  <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+  <Separator text="Get in touch" link="'#contact" />
+  <div id="contact" class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
@@ -166,5 +168,5 @@ import experiences from "../collections/experiences.json";
     >
       <i class="fa-brands fa-whatsapp fa-lg"></i> Send me a message</a
     >
-  </div>0
+  </div>
 </Layout>

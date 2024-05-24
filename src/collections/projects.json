@@ -1,7 +1,13 @@
 [
 	{
+		"name": "Brazilian Zip Code Searcher",
+		"description": "Next.js, TypeScript, TailwindCSS, SHADCN UI and ViaCEP API.",
+		"image": "/assets/images/projects/zipcodesearch.png",
+		"url": "https://zipcodesearcher.vercel.app/"
+	},
+    {
 		"name": "Morais & Ribeiro Lawyers",
-		"description": "Next.js, TailwindCSS and Discord Webhook.",
+		"description": "Next.js, TailwindCSS, TypeScript and Discord Webhook.",
 		"image": "/assets/images/projects/moraisribeiro.png",
 		"url": "https://moraisribeiro.vercel.app/"
 	},

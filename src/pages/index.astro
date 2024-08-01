@@ -9,38 +9,38 @@ import Layout from "../layouts/main.astro";
 import experiences from "../collections/experiences.json";
 ---
 
-<Layout title="Hi, I'm Elias!">
+<Layout title="Olá, sou o Elias!">
   <div
-    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 lg:px-2 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
         <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
-          Hi, I'm Elias!
+          Olá, Elias aqui!
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a front-end developer living in Brazil. <br
+          Sou um desenvolvedor front-end que mora no Brasil. <br
             class="hidden lg:block"
-          />I focus on Web and Mobile development. <br
+          />Meu foco é desenvolvimento Web e Mobile. <br
             class="hidden lg:block"
           />
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
-          I can help you out with:
+          Posso ajudar você com:
         </p>
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
-          <li>React.js Development</li>
-          <li>Mobile Development</li>
+          <li>Desenvolvimento React.JS</li>
+          <li>Desenvolvimento Mobile</li>
           <li>Website Design</li>
-          <li>and more...</li>
+          <li>e mais..</li>
         </ul>
         <div class="flex items-center gap-1">
           <Button
-            text="Download CV"
+            text="Baixar CV"
             link="/assets/cv/eliasacneto-cv.pdf"
             download="Elias A C Neto - CV"
           />
@@ -86,27 +86,28 @@ import experiences from "../collections/experiences.json";
       </div>
     </div>
   </div>
-  <Separator text="A little bit about me" link="#about" />
+  <Separator text="Um pouco sobre mim" link="#about" />
 
-  <div class="z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+  <div class="z-20 max-w-3xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
-      title="About Me"
-      description="I hold a degree in Analysis and Systems Development, boasting solid experience in project management, user-friendly UI/UX interface development, website and web application creation, seamlessly integrating agile methodologies with programming best practices. I have a genuine passion for programming and I'm an advocate for usability and innovation-related themes!"
+      title="Sobre mim"
+      description="Sou formado em Análise e Desenvolvimento de Sistemas e possuo sólida experiência em gerenciamento de projetos, desenvolvimento de interfaces UI/UX intuitivas, e criação de sites e aplicações web. Integro metodologias ágeis com as melhores práticas de programação para entregar soluções eficientes e de alta qualidade."
+      description2=" Minha paixão pela programação é complementada pelo meu entusiasmo por usabilidade e inovação. Busco constantemente aprimorar minhas habilidades e estou sempre em sintonia com as tendências mais recentes do mercado. Estou pronto para enfrentar novos desafios e contribuir para o sucesso de projetos de alta relevância. 🚀"
     />
 
     <div id="my-projects">
-      <Separator text="Check out my projects" link="#projects" />
+      <Separator text="Confira meus projetos" link="#projects" />
     </div>
     <Projects />
 
     <div id="my-experiences"></div>
-    <Separator text="My work experiences" link="#experiences" />
+    <Separator text="Minhas experiências de trabalho" link="#experiences" />
 
     <h2
       id="experiences"
       class="mt-1 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Experiences
+      Experiências
     </h2>
     <div class="px-5 py-10">
       {
@@ -140,33 +141,33 @@ import experiences from "../collections/experiences.json";
   </div>
   <div id="my-contact"></div>
 
-  <Separator text="Get in touch" link="#contact" />
+  <Separator text="Entrar em contato" link="#contact" />
   <div id="contact" class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Let's Connect
+      Vamos nos conectar
     </h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work <a
+      Se você quiser ficar por dentro dos meus trabalho <a
         href="https://linkedin.com/in/eliasacneto"
         target="_blank"
-        class="text-sky-600 underline">follow me on Linkedin</a
-      >, or you can send me an <a
+        class="text-sky-600 underline">Conecte-se comigo no Linkedin</a
+      >, ou você pode me enviar um <a
         href="mailto:netoeac.dev@gmail.com"
         class="text-sky-600 underline">email</a
-      > and I'll be sure to get back to you.
+      > que entrarei em contato com você em breve.
     </p>
   </div>
   <div class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <a
-      href="https://api.whatsapp.com/send?phone=5588997652020&text=Hi%20Elias,%20I%20saw%20your%20website%20and%20I'd%20like%20to%20talk%20to%20you%20about%20a%20project.%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB"
+      href="https://api.whatsapp.com/send?phone=5588997652020&text=Oi%20Elias,%20acessei%20seu%20portfólio%20e%20gostaria%20de%20conversar%20com%20você!"
       target="_blank"
-      class="block w-full px-4 py-2 mt-5 text-[14px] font-semibold text-center duration-300 ease-out border rounded bg-neutral-900 dark:bg-neutral-100 dark:hover:border-neutral-300 dark:text-neutral-800 dark:hover:bg-neutral-950 dark:hover:text-neutral-100 text-neutral-100 border-neutral-900 hover:bg-white hover:text-neutral-900 font-bold"
+      class="block w-full px-4 py-2 mt-5 text-[14px] text-center duration-300 ease-out border rounded bg-neutral-900 dark:bg-neutral-100 dark:hover:border-neutral-300 dark:text-neutral-800 dark:hover:bg-neutral-950 dark:hover:text-neutral-100 text-neutral-100 border-neutral-900 hover:bg-white hover:text-neutral-900 font-bold"
     >
-      <i class="fa-brands fa-whatsapp fa-lg"></i> Send me a message</a
+      <i class="fa-brands fa-whatsapp fa-lg mr-2"></i> Me mande uma mensagem</a
     >
   </div>
 </Layout>

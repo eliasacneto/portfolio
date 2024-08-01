@@ -1,5 +1,11 @@
 [
-	{
+    {
+		"name": "DocBoost Marketing Médico",
+		"description": "HTML & TailwindCSS.",
+		"image": "/assets/images/projects/docboost.png",
+		"url": "https://docboost.netlify.app/"
+	},
+    {
 		"name": "Brazilian Zip Code Searcher",
 		"description": "Next.js, TypeScript, TailwindCSS, SHADCN UI and ViaCEP API.",
 		"image": "/assets/images/projects/zipcodesearch.png",
@@ -19,13 +25,13 @@
 	},
     {
 		"name": "Fortune Cookie",
-		"description": "Get you luck phrase. HTML, CSS and Javascript.",
+		"description": "Qual quebrar o biscoito para ver a sorte do dia? HTML, CSS and Javascript.",
 		"image": "/assets/images/projects/fortune.gif",
 		"url": "https://myfortunecookie.netlify.app/"
 	},
 	{
-		"name": "WeathAddress",
-		"description": "A webpage created to consume weather and localization api.",
+		"name": "WeatherAddress",
+		"description": "Uma página da web criada para consumir API de clima e localização.",
 		"image": "/assets/images/projects/zipcode.png",
 		"url": "https://dnczipcodeweather.netlify.app/"
 	},	

@@ -1,19 +1,19 @@
 [
     
 	{
-		"name": "About me",
+		"name": "Sobre mim",
 		"url": "/"
 	},
 	{
-		"name": "Projects",
+		"name": "Projetos",
 		"url": "#my-projects"
 	},
 	{
-		"name": "Experiences",
+		"name": "Experiências",
 		"url": "#my-experiences"
 	},
 	{
-		"name": "Contact",
+		"name": "Contato",
 		"url": "#my-contact"
 	}
 ]

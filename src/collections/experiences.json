@@ -1,23 +1,23 @@
 [
 	{
-		"dates": "Jun 2020 · Present",
+		"dates": "Jun 2020 · o momento",
 		"role": "Head of Technology",
 		"company": "Realm",
-		"description": "Responsible for project management, customer service and Saas platform front-end development.",
+		"description": "Responsável pelo gerenciamento de projetos, atendimento ao cliente e desenvolvimento front-end da plataforma SaaS.",
 		"logo": "/assets/images/experiences/realm.png"
 	},
 	{
-		"dates": "Jun 2020 · Oct 2021",
+		"dates": "Jun 2020 · Out 2021",
 		"role": "Front-end Developer",
 		"company": "CodeRealm",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
+		"description": "Responsável pelo desenvolvimento front-end móvel da plataforma de e-commerce.",
 		"logo": "/assets/images/experiences/CodeRealm.png"
 	},
 	{
 		"dates": "Jan 2017 · Jan 2020 ",
-		"role": "English teacher",
+		"role": "Professor de Inglês",
 		"company": "Wizard by Pearson",
-		"description": "My role encompassed not only language instruction but also fostering communicative skills and creating a stimulating learning environment.",
+		"description": "Minha função abrangia não apenas o ensino do idioma, mas também o fomento de habilidades de comunicação e a criação de um ambiente de aprendizagem estimulante.",
 		"logo": "/assets/images/experiences/wizard.png"
 	}
 ]

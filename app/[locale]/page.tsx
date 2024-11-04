@@ -185,10 +185,10 @@ export default function Page() {
               <TechCard number="08">
                 <Image
                   className="mx-auto my-auto"
-                  src="/techs/nginx.svg"
+                  src="/techs/figma.svg"
                   alt="Nginx"
-                  width={180}
-                  height={80}
+                  width={80}
+                  height={60}
                 />
               </TechCard>
             </Animate>

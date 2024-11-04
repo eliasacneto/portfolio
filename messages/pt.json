@@ -1,0 +1,139 @@
+{
+    "menu": {
+        "home": "Início",
+        "projects": "Projetos",
+        "skills": "Skills",
+        "about": "Sobre mim",
+        "cta": "Contrate agora!",
+        "ctaShort": "Contratar"
+    },
+    "hero": {
+        "title": "Contrate um desenvolvedor",
+        "title2": "",
+        "subtitle1": "Meu nome é Elias Neto e eu posso ajudar sua empresa a lucrar mais com software.",
+        "cta1": "Baixar CV",
+        "cta2": "Me contrate agora",
+        "hire": "Quero te contratar agora!",
+        "fiveStars": "Em avaliações de diversos clientes"
+    },
+    "labels": {
+        "projects": "Meus projetos",
+        "skills": "Minhas skills",
+        "stacks": "Principais tecnologias",
+        "about": "Sobre mim",
+        "carrer": "Carreira",
+        "downloadCV": "Baixar CV"
+    },
+    "about": {
+        "p1": "Sou desenvolvedor e cofundador da Octor, uma startup dedicada a aprimorar a gestão de clínicas e a experiência dos pacientes, integrando tecnologia e impacto social em cada solução que criamos. Minha jornada na tecnologia começou pelo desejo de criar produtos úteis e intuitivos, que resolvam problemas reais e melhorem a vida das pessoas.",
+        "p2": "Com foco em desenvolvimento front-end, estou me especializando em React e Next.js, frameworks que me permitem explorar ao máximo o potencial de interfaces dinâmicas e responsivas. Além disso, tenho experiência com Tailwind CSS, TypeScript, Node.js e MySQL, ferramentas que me ajudam a construir soluções robustas e funcionais.",
+        "p3": "A paixão pelo desenvolvimento ágil também me levou a aprofundar meus estudos em metodologias como o Scrum, me permitindo atuar como facilitador e líder nos projetos em que trabalho. Acredito que empatia e boa comunicação são essenciais para o sucesso de qualquer equipe, e busco cultivar essas habilidades ao lado de uma liderança colaborativa e aberta, sempre focada em promover um ambiente de trabalho positivo e produtivo.",
+        "p4": "Quando não estou trabalhando, gosto de me desafiar com novos conhecimentos e técnicas em metodologias ágeis e de desenvolvimento. E, fora da área técnica, adoro maratonar The Office com meus 6 gatos.",
+        "footer": "De designs e prototipação de wireframes até o desenvolvimento de aplicações de grande porte, minha especialidade é entregar resultados e agregar valor com cada linha de código que eu escrevo. Estou interessado em utilizar minhas habilidades em trabalhos fixos e contratos de freelance, o resultado eu garanto. Entre em contato para construirmos seu próximo SaaS, aplicativo ou site."
+    },
+    "projects": {
+        "web1": {
+            "title": "Brazilian Hands Cooperative",
+            "service": "Desenvolvimento Web & UI",
+            "description": "Um site que fornece uma plataforma para os clientes solicitarem serviços facilmente, ao mesmo tempo em que oferece aos brasileiros na Irlanda a oportunidade de ingressar em uma cooperativa para trabalhar."
+        },
+        "web2": {
+            "title": "WhatsLink",
+            "service": "Desenvolvimento Web",
+            "description": "O WhatsLink é um aplicativo web simples, mas poderoso, que permite criar mensagens personalizadas do WhatsApp e gerar links compartilháveis ​​em apenas alguns segundos."
+        },
+        "dashboard1": {
+            "title": "Equipacare Dashboard",
+            "service": "Dashboards & UI",
+            "description": "O projeto tem como objetivo transformar uma planilha Excel usada para dimensionamento de equipamentos de esterilização em hospitais em uma ferramenta online interativa capaz de capturar leads qualificados e mapear futuros clientes, além de cuidar da coleta e integração de dados sobre hospitais em construção no Brasil."
+        }
+    },
+    "skills": {
+        "devWeb": {
+            "title": "Desenvolvimento Web",
+            "description": "Sou especialista em desenvolvimento web, criando aplicações interativas e responsivas. Utilizo React.js e Next.js para desenvolver interfaces modernas, proporcionando experiências fluidas e intuitivas, com foco em acessibilidade e desempenho."
+        },
+        "devMobile": {
+            "title": "Desenvolvimento Mobile",
+            "description": "Com experiência em desenvolvimento mobile, crio aplicativos robustos com React Native. Utilizando React Native e Expo, desenvolvo interfaces fluidas e de alta performance para Android e iOS."
+        },
+        "apis": {
+            "title": "APIs e RESTful",
+            "description": "Tenho forte entendimento na construção de APIs RESTful, permitindo comunicação eficiente entre sistemas. Utilizo Node.js e Express para criar APIs escaláveis, assegurando segurança e eficiência nas interações de dados."
+        },
+        "uiux": {
+            "title": "Design de UI/UX",
+            "description": "Minha abordagem em design de UI/UX foca na criação de interfaces que não apenas encantam visualmente, mas também oferecem uma experiência de usuário intuitiva. Com habilidades fortes em prototipagem e wireframing no Figma, sou capaz de transformar requisitos em soluções visuais eficazes, garantindo que cada elemento do design contribua para a usabilidade e acessibilidade."
+        },
+        "database": {
+            "title": "Banco de Dados",
+            "description": "Possuo experiência em gerenciamento de dados, utilizando bancos de dados relacionais SQL e NoSQL. Estou familiarizado com modelagem e otimização de consultas, garantindo eficiência no armazenamento e recuperação de informações."
+        },
+        "devops": {
+            "title": "DevOps",
+            "description": "Minha experiência em DevOps envolve automatizar o desenvolvimento e entrega de software. Utilizo serviços da AWS e servidores Nginx para implementar soluções de hospedagem e integração contínua, garantindo agilidade na entrega."
+        },
+        "fullstack": {
+            "title": "Desenvolvimento Full-stack",
+            "description": "Como desenvolvedor full-stack, atuo em todas as camadas do desenvolvimento, do front-end ao back-end. Minha proficiência em React, Node.js, Next.js e React Native me permite criar soluções completas que oferecem experiências coesas e facilitam a manutenção."
+        }
+    },
+    "career": {
+        "realm": {
+            "title": "Head of Technology",
+            "info": "📅  Jun 20 - o momento • Realm",
+            "description": "Responsável pelo desenvolvimento da UI/UX, criação de wireframes e implementação do front-end para aplicações em dispositivos móveis e web. Minha atuação abrange desde a concepção visual e interativa até a codificação, assegurando uma experiência de usuário excepcional e interfaces responsivas que se adaptam a diferentes dispositivos e resoluções. Trabalho de perto com equipes de design e desenvolvimento para transformar visões estratégicas em soluções digitais acessíveis e eficientes."
+        },
+        "dnc": {
+            "title": "Freelancer",
+            "info": "📅 Out 23 - o momento • DNC",
+            "description": "Responsável pela criação e implementação de soluções completas de software. Atuando desde a fase de prototipação de interfaces no Figma, até o desenvolvimento do front end e back end de aplicações. Envolvido na construção de projetos dinâmicos e interativos, com foco em performance, usabilidade e alinhamento com as necessidades dos projetos solicitados pela instituição."
+        },
+        "codeRealm": {
+            "title": "Desenvolvedor Front-End",
+            "info": "📅 Jun 20 - Out 21 • CodeRealm",
+            "description": "Responsável pelo desenvolvimento da UI/UX, criação de wireframes e implementação do front-end para aplicações em dispositivos móveis e web. Minha atuação abrange desde a concepção visual e interativa até a codificação, assegurando uma experiência de usuário excepcional e interfaces responsivas que se adaptam a diferentes dispositivos e resoluções. Trabalho de perto com equipes de design e desenvolvimento para transformar visões estratégicas em soluções digitais acessíveis e eficientes."
+        },
+        "wizard": {
+            "title": "Professor de Inglês",
+            "info": "📅 Jan 17 - Jan 20 • Wizard by Pearson",
+            "description": "Desempenhei o papel de Instrutor na escola de idiomas Wizard by Pearson, onde ministrei aulas para alunos de níveis iniciante a intermediário. Minha função envolveu não apenas o ensino da língua, mas também o desenvolvimento de habilidades comunicativas e a criação de um ambiente de aprendizado estimulante."
+        },
+        "responsibilities": {
+            "projectManagement": "Gestão de Projetos",
+            "reactNative": "React Native",
+            "apis": "APIs",
+            "nextjs": "NextJS",
+            "uiux": "UI/UX",
+            "mobile": "Mobile",
+            "figma": "UIs no Figma",
+            "landingPages": "Landing Pages",
+            "pnl": "PNL",
+            "rapport": "Rapport",
+            "grammar": "Gramática"
+        }
+    },
+    "form": {
+        "title": "Solicitar um trabalho com o Elias Neto",
+        "subtitle": "Elias receberá sua mensagem e entrará em contato",
+        "required": "Obrigatório",
+        "allRight": "Tudo certinho!",
+        "closeWindow": "Agora você pode fechar essa janela :)",
+        "name": "Nome",
+        "pName": "Digite o seu nome",
+        "phone": "Telefone",
+        "pPhone": "(00) 90000-0000",
+        "inPhone": "Número inválido",
+        "email": "E-mail",
+        "pEmail": "seunome@email.com",
+        "inEmail": "Por favor, insira um e-mail válido",
+        "message": "Mensagem",
+        "pMessage": "Ex.: Oi Elias, gostaria de entrar em contato para...",
+        "sentMessage": "Mensagem enviada com sucesso!",
+        "soon": "Não se preocupe, em breve o Elias irá entrar em contato...",
+        "cancel": "Cancelar",
+        "close": "Fechar",
+        "error": "Ops! Ocorreu um problema, tente novamente mais tarde!",
+        "next": "Próximo"
+    }
+}

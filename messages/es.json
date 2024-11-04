@@ -1,0 +1,139 @@
+{
+    "menu": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "about": "Sobre mí",
+        "cta": "¡Contrata ahora!",
+        "ctaShort": "Contratar"
+    },
+    "hero": {
+        "title": "Contrata a un desarrollador",
+        "title2": "",
+        "subtitle1": "Mi nombre es Elias Neto y puedo ayudar a tu empresa a ganar más con software.",
+        "cta1": "Descargar CV",
+        "cta2": "Contrátame ahora",
+        "hire": "¡Quiero contratarte ahora!",
+        "fiveStars": "En evaluaciones de varios clientes"
+    },
+    "labels": {
+        "projects": "Mis proyectos",
+        "skills": "Mis habilidades",
+        "stacks": "Principales tecnologías",
+        "about": "Sobre mí",
+        "carrer": "Carrera",
+        "downloadCV": "Descargar CV"
+    },
+    "about": {
+        "p1": "Soy desarrollador y cofundador de Octor, una startup dedicada a mejorar la gestión de clínicas y la experiencia de los pacientes, integrando tecnología e impacto social en cada solución que creamos. Mi trayectoria en la tecnología comenzó con el deseo de crear productos útiles e intuitivos que resuelvan problemas reales y mejoren la vida de las personas.",
+        "p2": "Con un enfoque en el desarrollo front-end, me estoy especializando en React y Next.js, frameworks que me permiten explorar al máximo el potencial de interfaces dinámicas y responsivas. Además, tengo experiencia con Tailwind CSS, TypeScript, Node.js y MySQL, herramientas que me ayudan a construir soluciones robustas y funcionales.",
+        "p3": "La pasión por el desarrollo ágil también me llevó a profundizar mis estudios en metodologías como Scrum, lo que me permite actuar como facilitador y líder en los proyectos en los que trabajo. Creo que la empatía y una buena comunicación son esenciales para el éxito de cualquier equipo, y busco cultivar estas habilidades junto a un liderazgo colaborativo y abierto, siempre enfocado en promover un ambiente de trabajo positivo y productivo.",
+        "p4": "Cuando no estoy trabajando, me gusta desafiarme con nuevos conocimientos y técnicas en metodologías ágiles y de desarrollo. Y, fuera del área técnica, me encanta maratonear The Office con mis 6 gatos.",
+        "footer": "Desde el diseño y la creación de prototipos de wireframes hasta el desarrollo de aplicaciones a gran escala, mi especialidad es entregar resultados y agregar valor con cada línea de código que escribo. Estoy interesado en usar mis habilidades en trabajos fijos y contratos freelance, el resultado lo garantizo. Ponte en contacto para construir tu próximo SaaS, aplicación o sitio web."
+    },
+    "projects": {
+        "web1": {
+            "title": "Cooperativa Brazilian Hands",
+            "service": "Desarrollo Web y UI",
+            "description": "Un sitio que proporciona una plataforma para que los clientes soliciten servicios fácilmente, mientras ofrece a los brasileños en Irlanda la oportunidad de unirse a una cooperativa para trabajar."
+        },
+        "web2": {
+            "title": "WhatsLink",
+            "service": "Desarrollo Web",
+            "description": "WhatsLink es una aplicación web simple pero poderosa que permite crear mensajes personalizados de WhatsApp y generar enlaces compartibles en solo unos segundos."
+        },
+        "dashboard1": {
+            "title": "Panel de Control de Equipacare",
+            "service": "Paneles de control y UI",
+            "description": "El proyecto tiene como objetivo transformar una hoja de cálculo de Excel usada para dimensionar equipos de esterilización en hospitales en una herramienta online interactiva capaz de capturar leads cualificados y mapear futuros clientes, además de gestionar la recopilación e integración de datos sobre hospitales en construcción en Brasil."
+        }
+    },
+    "skills": {
+        "devWeb": {
+            "title": "Desarrollo Web",
+            "description": "Soy especialista en desarrollo web, creando aplicaciones interactivas y responsivas. Utilizo React.js y Next.js para desarrollar interfaces modernas, proporcionando experiencias fluidas e intuitivas, con un enfoque en accesibilidad y rendimiento."
+        },
+        "devMobile": {
+            "title": "Desarrollo Móvil",
+            "description": "Con experiencia en desarrollo móvil, creo aplicaciones robustas con React Native. Usando React Native y Expo, desarrollo interfaces fluidas y de alto rendimiento para Android e iOS."
+        },
+        "apis": {
+            "title": "APIs y RESTful",
+            "description": "Tengo un fuerte entendimiento en la construcción de APIs RESTful, permitiendo una comunicación eficiente entre sistemas. Utilizo Node.js y Express para crear APIs escalables, asegurando seguridad y eficiencia en las interacciones de datos."
+        },
+        "uiux": {
+            "title": "Diseño de UI/UX",
+            "description": "Mi enfoque en diseño de UI/UX se centra en crear interfaces que no solo sean visualmente atractivas, sino que también ofrezcan una experiencia de usuario intuitiva. Con habilidades fuertes en prototipado y wireframing en Figma, soy capaz de transformar requisitos en soluciones visuales efectivas, asegurando que cada elemento del diseño contribuya a la usabilidad y accesibilidad."
+        },
+        "database": {
+            "title": "Base de Datos",
+            "description": "Tengo experiencia en la gestión de datos, usando bases de datos relacionales SQL y NoSQL. Estoy familiarizado con la modelización y optimización de consultas, garantizando la eficiencia en el almacenamiento y recuperación de información."
+        },
+        "devops": {
+            "title": "DevOps",
+            "description": "Mi experiencia en DevOps implica automatizar el desarrollo y la entrega de software. Utilizo servicios de AWS y servidores Nginx para implementar soluciones de alojamiento e integración continua, asegurando agilidad en la entrega."
+        },
+        "fullstack": {
+            "title": "Desarrollo Full-stack",
+            "description": "Como desarrollador full-stack, trabajo en todas las capas del desarrollo, desde el front-end hasta el back-end. Mi competencia en React, Node.js, Next.js y React Native me permite crear soluciones completas que ofrecen experiencias coherentes y facilitan el mantenimiento."
+        }
+    },
+    "career": {
+        "realm": {
+            "title": "Head of Technology",
+            "info": "📅 Jun 20 - presente • Realm",
+            "description": "Responsable del desarrollo de la UI/UX, creación de wireframes e implementación del front-end para aplicaciones en dispositivos móviles y web. Mi trabajo abarca desde la concepción visual e interactiva hasta la codificación, asegurando una experiencia de usuario excepcional y interfaces responsivas que se adaptan a diferentes dispositivos y resoluciones. Trabajo estrechamente con equipos de diseño y desarrollo para transformar visiones estratégicas en soluciones digitales accesibles y eficientes."
+        },
+        "dnc": {
+            "title": "Freelancer",
+            "info": "📅 Oct 23 - presente • DNC",
+            "description": "Responsable de la creación e implementación de soluciones de software completas. Participando desde la fase de prototipado de interfaces en Figma hasta el desarrollo del front-end y back-end de aplicaciones. Involucrado en la construcción de proyectos dinámicos e interactivos, con enfoque en rendimiento, usabilidad y alineación con las necesidades de los proyectos solicitados por la institución."
+        },
+        "codeRealm": {
+            "title": "Desarrollador Front-End",
+            "info": "📅 Jun 20 - Oct 21 • CodeRealm",
+            "description": "Responsable del desarrollo de la UI/UX, creación de wireframes e implementación del front-end para aplicaciones en dispositivos móviles y web. Mi trabajo abarca desde la concepción visual e interactiva hasta la codificación, asegurando una experiencia de usuario excepcional y interfaces responsivas que se adaptan a diferentes dispositivos y resoluciones. Trabajo estrechamente con equipos de diseño y desarrollo para transformar visiones estratégicas en soluciones digitales accesibles y eficientes."
+        },
+        "wizard": {
+            "title": "Profesor de Inglés",
+            "info": "📅 Ene 17 - Ene 20 • Wizard by Pearson",
+            "description": "Desempeñé el papel de instructor en la escuela de idiomas Wizard by Pearson, donde impartí clases a estudiantes de niveles principiante a intermedio. Mi función no solo implicaba la enseñanza del idioma, sino también el desarrollo de habilidades comunicativas y la creación de un ambiente de aprendizaje estimulante."
+        },
+        "responsibilities": {
+            "projectManagement": "Gestión de Proyectos",
+            "reactNative": "React Native",
+            "apis": "APIs",
+            "nextjs": "NextJS",
+            "uiux": "UI/UX",
+            "mobile": "Móvil",
+            "figma": "UIs en Figma",
+            "landingPages": "Landing Pages",
+            "pnl": "PNL",
+            "rapport": "Rapport",
+            "grammar": "Gramática"
+        }
+    },
+    "form": {
+        "title": "Solicitar un trabajo con Elias Neto",
+        "subtitle": "Elias recibirá tu mensaje y se pondrá en contacto",
+        "required": "Obligatorio",
+        "allRight": "¡Todo bien!",
+        "closeWindow": "Ahora puedes cerrar esta ventana :)",
+        "name": "Nombre",
+        "pName": "Introduce tu nombre",
+        "phone": "Teléfono",
+        "pPhone": "(00) 90000-0000",
+        "inPhone": "Número inválido",
+        "email": "Correo electrónico",
+        "pEmail": "tunombre@correo.com",
+        "inEmail": "Por favor, introduce un correo electrónico válido",
+        "message": "Mensaje",
+        "pMessage": "Ej.: Hola Elias, me gustaría ponerme en contacto para...",
+        "sentMessage": "¡Mensaje enviado con éxito!",
+        "soon": "No te preocupes, pronto Elias se pondrá en contacto...",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "error": "¡Ups! Ocurrió un problema, inténtalo de nuevo más tarde.",
+        "next": "Siguiente"
+    }
+}

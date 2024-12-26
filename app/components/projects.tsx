@@ -222,7 +222,7 @@ const data = [
   {
     titleKey: "web1.title",
     src: "/projects/bhc-cover.png",
-    tags: ["featured", "dashboards", "websites"],
+    tags: ["featured", "websites"],
     href: "/projects/corelli",
     descriptionKey: "web1.description",
     service: "web1.service",
@@ -230,15 +230,15 @@ const data = [
   {
     titleKey: "web2.title",
     src: "/projects/whats-cover.png",
-    tags: ["featured", "saas"],
+    tags: ["featured", "websites"],
     href: "/projects/corelli",
     descriptionKey: "web2.description",
     service: "web2.service",
   },
   {
     titleKey: "dashboard1.title",
-    src: "/projects/central-caverna-cover.png",
-    tags: ["featured", "apps"],
+    src: "/projects/equipacare-cover.png",
+    tags: ["featured", "dashboard"],
     href: "/projects/corelli",
     descriptionKey: "dashboard1.description",
     service: "dashboard1.service",

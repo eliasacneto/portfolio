@@ -43,7 +43,7 @@
             "description": "WhatsLink is a simple yet powerful web application that allows you to create personalized WhatsApp messages and generate shareable links in just a few seconds."
         },
         "dashboard1": {
-            "title": "Equipacare Dashboard",
+            "title": "Equipacare Admin Platform",
             "service": "Dashboards & UI",
             "description": "The project aims to transform an Excel spreadsheet used for sizing sterilization equipment in hospitals into an interactive online tool that can capture qualified leads and map future clients, while handling the collection and integration of data on hospitals under construction in Brazil."
         }

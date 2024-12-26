@@ -76,6 +76,21 @@
         "fullstack": {
             "title": "Desarrollo Full-stack",
             "description": "Como desarrollador full-stack, trabajo en todas las capas del desarrollo, desde el front-end hasta el back-end. Mi competencia en React, Node.js, Next.js y React Native me permite crear soluciones completas que ofrecen experiencias coherentes y facilitan el mantenimiento."
+        },
+        "web": {
+            "knowMore": "Ver más",
+            "seeMore": "Download",
+            "headerTitle": "Landing Page",
+            "headerHighlight": "Desarrolla tu LP"
+        },
+        "api": {
+            "technologies": {
+                "express": "ExpressJS",
+                "websockets": "WebSockets",
+                "designpatterns": "Design Patterns",
+                "restful": "RESTful APIs"
+            },
+            "seeMore": "Download"
         }
     },
     "career": {

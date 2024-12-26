@@ -221,7 +221,7 @@ export function Projects() {
 const data = [
   {
     titleKey: "web1.title",
-    src: "/projects/corelli-cover.png",
+    src: "/projects/bhc-cover.png",
     tags: ["featured", "dashboards", "websites"],
     href: "/projects/corelli",
     descriptionKey: "web1.description",
@@ -229,7 +229,7 @@ const data = [
   },
   {
     titleKey: "web2.title",
-    src: "/projects/booking-gpt-cover.png",
+    src: "/projects/whats-cover.png",
     tags: ["featured", "saas"],
     href: "/projects/corelli",
     descriptionKey: "web2.description",
